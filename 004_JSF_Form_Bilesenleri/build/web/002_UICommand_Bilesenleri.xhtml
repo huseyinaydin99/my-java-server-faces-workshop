@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>
+        <title>Form - Komut Butonu - Komut Linki</title>
+    </h:head>
+    <h:body>
+        <f:view>
+            Bilişim, yazılım teknolojileri insanoğlunun şu ana kadar ki elde edebildiği<br />
+            en üstün şey ve süper güce en yakın şeydir.<br />
+            Hüseyin AYDIN.<br />
+            <h:form id="form1">
+                Komut Butonu: 
+                <h:commandButton id="gonderDugmesi" 
+                                 value="Düğme ile ileri git"  
+                                 action="001_UICommand_Bilesenleri.jsf"/>
+                <br/>
+                Komut linki: 
+                <h:commandLink id="gonderLinki" action="001_UICommand_Bilesenleri.jsf">
+                    <h:outputText value="Bağlantı ile ileri git"/>
+                </h:commandLink>
+            </h:form>
+        </f:view>
+    </h:body>
+</html>
+
